@@ -7,9 +7,8 @@ This home lab simulates a small enterprise network designed for hands-on penetra
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
-- <b>Virtual Box</b> 
 - <b>pfSense</b>
 - <b>Metasploitable</b>
 - <b>Windows 11</b>
@@ -19,7 +18,7 @@ This home lab simulates a small enterprise network designed for hands-on penetra
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Virtual Box</b>
 
 <h2>Program walk-through:</h2>
 
