@@ -25,29 +25,23 @@ This home lab simulates a small enterprise network designed for hands-on penetra
 <img src="https://github.com/Dalilatu/Project-Page-Dal/blob/main/Home%20lab%20Setup%20diagram.drawio.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+<h3>Lab Installation Tools</h3>
+
+| Tool Name | Why It Was Used | Download Link |
+|-----------|---------------------------|---------------|
+| VirtualBox | Used to create and manage virtual machines for the lab environment. | [Download](https://www.virtualbox.org/) |
+| Kali Linux | Offensive security testing and penetration testing distribution. Will be used for our attacks| [Download](https://www.kali.org/get-kali/) |
+| Metasploit | Exploitation framework used for vulnerability testing. | [Download](https://www.metasploit.com/) |
+| pfSense | Firewall and router used to simulate network segmentation and traffic control in the lab. | [Download](https://www.wireshark.org/) |
+| Windows 11 Enterprise | Will be used as our client machine | [Download](https://www.microsoft.com/en-us/evalcenter/download-windows-11-enterprise) |
+| Windows Server | The server that'll be used for the Domain Controller | [Download](link) |
+
+<h3>Important Configuration</h3>
+
+PfSense Configurations
+
+
 
 <!--
  ```diff
