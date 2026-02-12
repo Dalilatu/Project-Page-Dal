@@ -1,7 +1,5 @@
 <h1>Home Lab Setup</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
 This home lab simulates a small enterprise network designed for hands-on penetration testing. It includes an attacker machine, segmented networks, and an Active Directory environment to practice real-world attack scenarios and defensive analysis.
 <br />
@@ -24,7 +22,6 @@ This home lab simulates a small enterprise network designed for hands-on penetra
 <h3>Lab Diagram</h3>
 
 <p align="center">
-Launch the utility: <br/>
 <img src="https://github.com/Dalilatu/Project-Page-Dal/blob/main/Home%20lab%20Setup%20diagram.drawio.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
