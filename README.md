@@ -21,10 +21,11 @@ This home lab simulates a small enterprise network designed for hands-on penetra
 - <b>Virtual Box</b>
 
 <h2>Program walk-through:</h2>
+<h3>Lab Diagram</h3>
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Dalilatu/Project-Page-Dal/blob/main/Home%20lab%20Setup%20diagram.drawio.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>
