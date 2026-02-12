@@ -102,7 +102,9 @@ Disable USB: <br />
 Once pfSense is successfully installed, we can now go ahead and install other tools like Windows 11, Kali, Metasploitable and Windows Server.
 <br />
 
+<h3>pfSense Configuration 2: Firewall Configuration</h3>
 
+With pfSense and Windows 11 open, access the pfSense web using https://ip_address
 
 
 <!--
