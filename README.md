@@ -101,10 +101,125 @@ Disable USB: <br />
 
 Once pfSense is successfully installed, we can now go ahead and install other tools like Windows 11, Kali, Metasploitable and Windows Server.
 <br />
+<br />
 
+<!-- CONFIGURING PFSENSE -->
 <h3>pfSense Configuration 2: Firewall Configuration</h3>
+<br/>
 
-With pfSense and Windows 11 open, access the pfSense web using https://ip_address
+<h3>pfSense Configuration Guide</h3>
+
+With <strong>pfSense</strong> and <strong>Windows 11</strong> running, access the pfSense web interface via: <br/>
+<strong>https://pfsense_ip_address</strong><br/>
+<br/>
+
+This allows us to configure and manage the network interfaces.<br/>
+<br/>
+
+<h4>Configuration Steps Completed</h4><br/>
+
+1️⃣ <strong>Services > DNS Resolver</strong><br/>
+
+- Enable:<br/>
+  - ✅ Register DHCP Leases in the DNS Resolver.<br/>
+  - ✅ Register DHCP Static Mappings in the DNS Resolver.<br/>
+<br/>
+<strong>Services > DNS Resolver > Advanced Settings</strong><br/>
+
+- Enable:<br/>
+  - ✅ Prefetch Support<br/>
+  - ✅ Prefetch DNS Key Support<br/>
+
+<br/>
+2️⃣ <strong>System > Advanced > Network</strong><br/>
+
+- Enable:<br/>
+  - ✅ Hardware Checksum Offloading<br/>
+
+<br/>
+3️⃣ <strong>Status > DHCP Leases</strong><br/>
+
+- This section allows you to:<br/>
+  - View active DHCP leases<br/>
+  - Identify connected devices<br/>
+  - Modify the Windows 11 IP address if necessary.
+<br/>
+<br/>
+4️⃣ <strong>Services > DHCP Server</strong><br/>
+
+Under <strong>Server Options</strong>:<br/>
+
+- Add the following DNS servers:<br/>
+  - `8.8.8.8`<br/>
+  - `1.1.1.1`<br/>
+<br/>
+⚠️ Ensure this configuration is applied to both:<br/>
+- <strong>ECORP</strong><br/>
+- <strong>ATTACKLAN</strong><br/>
+<br/>
+(Select the appropriate interface tab before making changes.)<br/>
+<br/>
+<strong>Creating an Alias</strong><br/>
+<br/>
+To create a firewall alias:<br/>
+
+1. Navigate to <strong>Firewall > Aliases</strong><br/>
+2. Click <strong>Add</strong><br/>
+3. Define:<br/>
+   - Name<br/>
+   - Description<br>
+   - Type (Host, Network, Port, etc.)<br/>
+4. Save and Apply changes<br/>
+<br/>
+Aliases help simplify firewall rule management and improve readability.<br/>
+<br/>
+
+
+<!--CREATING FIREWALL RULES-->
+
+
+<strong>Creating Firewall Rules</strong><br/>
+
+
+We configured firewall rules to:<br/>
+
+- Allow traffic between:<br/>
+  - Active Directory and other devices within the same network<br/>
+  - Active Directory and the ATTACKLAN<br/>
+  - Active Directory and non-private (internet) networks<br/>
+<br/>
+- Configure ATTACKLAN rules to:<br/>
+  - Allow traffic to ECORP<br/>
+  - Allow outbound internet access<br/>
+<br/>
+<br/>
+<strong># Firewall Rules – Screenshots</strong><br/>
+
+<strong>ECORP Firewall Rules</strong></br>
+<p align="center">
+Insert screenshot of ECORP firewall rules below:<br/>
+
+<img width="981" height="672" alt="image" src="https://github.com/user-attachments/assets/4ef2c8cc-9600-43c8-97da-79f8a310b8be"/><br/>
+
+</p>
+
+<strong>ATTACKLAN Firewall Rules</strong><br/>
+<p align="center">
+Insert screenshot of ATTACKLAN firewall rules below:<br/>
+
+<img width="947" height="510" alt="image" src="https://github.com/user-attachments/assets/85cbab3c-9606-416d-abdb-f85f636fc669" />
+<br />
+
+</p>
+<br/>
+
+
+
+
+
+
+
+
 
 
 <!--
