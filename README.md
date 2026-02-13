@@ -183,12 +183,12 @@ Aliases help simplify firewall rule management and improve readability.<br/>
 
 We configured firewall rules to:<br/>
 
-- Allow traffic between:<br/>
+Allow traffic between:<br/>
   - Active Directory and other devices within the same network<br/>
   - Active Directory and the ATTACKLAN<br/>
   - Active Directory and non-private (internet) networks<br/>
 <br/>
-- Configure ATTACKLAN rules to:<br/>
+Configure ATTACKLAN rules to:<br/>
   - Allow traffic to ECORP<br/>
   - Allow outbound internet access<br/>
 <br/>
@@ -197,7 +197,7 @@ We configured firewall rules to:<br/>
 
 <strong>ECORP Firewall Rules</strong></br>
 <p align="center">
-Insert screenshot of ECORP firewall rules below:<br/>
+ECORP firewall rules:<br/>
 
 <img width="981" height="672" alt="image" src="https://github.com/user-attachments/assets/4ef2c8cc-9600-43c8-97da-79f8a310b8be"/><br/>
 
@@ -205,7 +205,7 @@ Insert screenshot of ECORP firewall rules below:<br/>
 
 <strong>ATTACKLAN Firewall Rules</strong><br/>
 <p align="center">
-Insert screenshot of ATTACKLAN firewall rules below:<br/>
+ATTACKLAN firewall rules:<br/>
 
 <img width="947" height="510" alt="image" src="https://github.com/user-attachments/assets/85cbab3c-9606-416d-abdb-f85f636fc669" />
 <br />
