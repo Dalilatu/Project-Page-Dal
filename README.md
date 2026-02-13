@@ -29,7 +29,7 @@ This home lab simulates a small enterprise network designed for hands-on penetra
 | Metasploit | Exploitation framework used for vulnerability testing. | [Download](https://www.metasploit.com/) |
 | pfSense | Firewall and router used to simulate network segmentation and traffic control in the lab. | [Download](https://www.wireshark.org/) |
 | Windows 11 Enterprise | Will be used as our client machine | [Download](https://www.microsoft.com/en-us/evalcenter/download-windows-11-enterprise) |
-| Windows Server | The server that'll be used for the Domain Controller | [Download](link) |
+| Windows Server | The server that'll be used for the Domain Controller | [Download](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2025) |
 
 
 <h3>Lab Diagram</h3>
